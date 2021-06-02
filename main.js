@@ -1,6 +1,6 @@
-const emailInputEl = document.querySelector('#exampleInputEmail1')
-const modalEl = document.querySelector('#exampleModal')
+//tooltip은 사용전에 초기화를 해줘야 작동한다.
 
-modalEl.addEventListener('shown.bs.modal',function (){
-  emailInputEl.focus()
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
 })
