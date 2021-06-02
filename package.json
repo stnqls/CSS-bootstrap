@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel vuild index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stnqls/CSS-bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stnqls/CSS-bootstrap/issues"
+  },
+  "homepage": "https://github.com/stnqls/CSS-bootstrap#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.34.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3"
+  }
+}
